@@ -176,7 +176,7 @@ body.page-template-page-fullsingle-split {
   .fs-split .split-image {
     width: 50%;
     height: 100vh;
-    background-image: url("../../images/1.jpg");
+    background-image: url("../../images/2.jpg");
     background-position: center center;
     background-size: cover; }
     @media (max-width: 800px) {
