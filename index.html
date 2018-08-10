@@ -1,128 +1,908 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	
-	<!-- SEO -->
-	<title>Wayne's World</title>
-	<meta name="description" content="DeWayne's Personal Site." />
-	<meta name="robots" content="index, follow" />
-	<meta name="referrer" content="always" />
-
-	<!-- Social & Open Graph -->
-	<meta property="og:title" content="Wayne's World" />
-	<meta property="og:description" content="Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content." />
-	<meta property="og:image" content="https://demo.onepagelove.com/fullsingle-html/split/images/social.jpg"> <!-- include your hosted image full URL -->
-	<meta property="og:url" content="https://demo.onepagelove.com/fullsingle-html/split/" />
-	<meta name="twitter:title" content="Split - HTML Template Demo" >
-	<meta name="twitter:description" content="Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content." />
-	<meta name="twitter:image" content="https://demo.onepagelove.com/fullsingle-html/split/images/social.jpg" /> <!-- include your hosted image full URL -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@onepagelove" />
-	<meta name="twitter:creator" content="@robhope" />
-
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="images/fire%20fc.png" sizes="32x32">
-
-	<!-- Styles -->
-	<link rel='stylesheet' href='assets/css/split.css' type='text/css' media='screen' />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="Nicolas Lanthemann is a passionate Independent Experience Designer and Judge at Awwwards. He believes that design is not only about how things look & feel. It’s about the meaning they produce.">
+    <meta name="keywords" content="Nicolas Lanthemann Switzerland Zurich Fribourg Berne eikon Hinderling Volkart HV Experience Designer Interaction Developer Interactive Design Opportunities UI UX Frontend Fullstack Pixel Swiss Typography Space Astronaut Spaceship Pizza">
+    <meta name="author" content="Nicolas Lanthemann">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png?v=2">
+    <link rel="manifest" href="favicons/manifest.json?v=2">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg?v=2" color="#101010">
+    <link rel="shortcut icon" href="favicons/favicon.ico?v=2">
+    <meta name="theme-color" content="#101010">
+    <meta property="og:title" content="Nicolas Lanthemann — Independent Experience Designer">
+    <meta property="og:type" content="Website">
+    <meta property="fb:page_id" content="1687295751560126">
+    <meta property="og:description" content="Nicolas Lanthemann is a passionate Independent Experience Designer and Judge at Awwwards. He believes that design is not only about how things look & feel. It’s about the meaning they produce.">
+    <meta property="og:image" content="http://vanderlanth.io/images/ogfb.jpg">
+    <meta property="og:url" content="http://vanderlanth.io/">
+    <meta property="og:site_name" content="vanderlanth.io">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@vanderlanth">
+    <meta name="twitter:creator" content="@vanderlanth">
+    <meta name="twitter:title" content="Nicolas Lanthemann — Independent Experience Designer">
+    <meta name="twitter:description" content="Nicolas Lanthemann is a passionate Independent Experience Designer and Judge at Awwwards. He believes that design is not only about how things look & feel. It’s about the meaning they produce.">
+    <meta name="twitter:image" content="http://vanderlanth.io/images/ogtw.jpg">
+    <title>Nicolas Lanthemann — Experience Designer</title>
+    <meta id="viewport" name="viewport" content="initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1">
 </head>
+<style>
+    menu,
+nav,
+section,
+summary {
+    display: block
+}
 
-<body id="fullsingle" class="page-template-page-fullsingle-split">
+audio,
+canvas,
+progress,
+video {
+    display: inline-block
+}
 
-<div class="fs-split">
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
 
-	<!-- Image Side -->
-	<div class="split-image">
+[hidden] {
+    display: none
+}
 
-	</div>
+*,
+::after,
+::before {
+    background-repeat: no-repeat;
+    box-sizing: inherit
+}
 
-	<!-- Content Side -->
-	<div class="split-content">
+::after,
+::before {
+    text-decoration: inherit;
+    vertical-align: inherit
+}
 
-		<div class="split-content-vertically-center">
-		
-			<div class="split-intro">
-				
-				<h1>Dewayne Roy</h1>
+html {
+    box-sizing: border-box;
+    cursor: default;
+    font-family: sans-serif;
+    line-height: 1.5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
 
-				<span class="tagline"> Be the change you wish to &#128064; in the  &#127758;.
-                </span>
+body {
+    margin: 0;
+    background-color:black;
+}
 
-			</div>
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
 
-			<div class="split-bio">
-				
-				<p>
-					Hey!
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
 
- </p>
+hr {
+    height: 0;
+    overflow: visible
+}
 
+nav ol,
+nav ul {
+    list-style: none
+}
 
+abbr[title] {
+    border-bottom: 1px dotted;
+    text-decoration: none
+}
 
-			</div>
+b,
+strong {
+    font-weight: inherit
+}
 
-			<div class="split-lists">
-				
-				<!--<div class="split-list">
+b,
+strong {
+    font-weight: bolder
+}
 
-					<h3>Connect</h3>
+dfn {
+    font-style: italic
+}
 
-					<ul>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Email</a></li>
-						<li><a href="#">Newsletter</a></li>
-					</ul>
+mark {
+    background-color: #ff0;
+    color: #000
+}
 
-				</div>-->
+progress {
+    vertical-align: baseline
+}
 
-				<div class="split-list">
+small {
+    font-size: 83.3333%
+}
 
-					<h3>Connect With Me:</h3>
+sub,
+sup {
+    font-size: 83.3333%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
 
-					<ul>
-						<li><a href="https://medium.com/@dewayneroy" class="fa fa-medium fa-lg"></a></li>
-                        
-						<li><a href="https://instagram.com/dewayneroy/" class="fa fa-instagram fa-lg"></a></li>
-                        
-						<li><a href="https://twitter.com/dewayneroyj/" class="fa fa-twitter fa-lg"></a></li>
-                        
-                        <li><a href="https://www.linkedin.com/in/dewayne-j-176704103/ fa-lg" class="fa fa-linkedin"></a></li>
-                        
-						<li><a href="mailto:dewayneroyj@gmail.com" class="fa fa-envelope-o fa-lg"></a></li>
-                        
-						
-					</ul>
+sub {
+    bottom: -.25em
+}
 
-				</div>
-				
-				<!--<div class="split-list">
+sup {
+    top: -.5em
+}
 
-					<h3>Network</h3>
+::-moz-selection {
+    background-color: transparent;
+    color: #272727;
+    text-shadow: none
+}
 
-					<ul>
-						<li><a href="#">Link One</a></li>
-						<li><a href="#">Link Two</a></li>
-						<li><a href="#">Link Three</a></li>
-					</ul>
+::selection {
+    background-color: transparent;
+    color: #272727;
+    text-shadow: none
+}
 
-				</div>-->
-				
-			</div>
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle
+}
 
-			</div>		
+img {
+    border-style: none
+}
 
-		</div>
+svg {
+    fill: currentColor
+}
 
-	</div>
+svg:not(:root) {
+    overflow: hidden
+}
 
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:hover {
+    outline-width: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+button,
+input,
+select,
+textarea {
+    background-color: transparent;
+    border-style: none;
+    color: inherit;
+    font-size: 1em;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button
+}
+
+::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical
+}
+
+[type=checkbox],
+[type=radio] {
+    padding: 0
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+::-webkit-search-cancel-button,
+::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: .54
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+[aria-busy=true] {
+    cursor: progress
+}
+
+[aria-controls] {
+    cursor: pointer
+}
+
+[aria-disabled] {
+    cursor: default
+}
+
+[tabindex],
+a,
+area,
+button,
+input,
+label,
+select,
+textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation
+}
+
+[hidden][aria-hidden=false] {
+    clip: rect(0, 0, 0, 0);
+    display: inherit;
+    position: absolute
+}
+
+[hidden][aria-hidden=false]:focus {
+    clip: auto
+}
+
+@font-face {
+    font-family: SangBleu;
+    src: url(fonts/XL/SangBleuEmpire-Regular-WebXL.eot) format("embedded-opentype");
+    src: url(fonts/XL/SangBleuEmpire-Regular-WebXL.woff) format("woff"), url(fonts/XL/SangBleuEmpire-Regular-WebXL.woff2) format("woff2"), url(fonts/XL/SangBleuEmpire-Regular-WebXL.ttf) format("truetype"), url(fonts/XL/SangBleuEmpire-Regular-WebXL.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale
+}
+
+@font-face {
+    font-family: '718';
+    src: url(fonts/718/718-Light.woff);
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale
+}
+
+:root,
+html {
+    background-color: #fff
+}
+
+::-webkit-scrollbar {
+    display: none
+}
+
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: SangBleu;
+    color: white;
+    cursor: none
+}
+
+body,
+html {
+    font-size: calc(8px + (20 - 8)*(100vw - 375px)/ (1920 - 375));
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: fixed
+}
+
+.page--container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative
+}
+
+canvas {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: -1;
+    transition: .5s ease all;
+}
+
+canvas.hidden {
+    opacity: 0
+}
+
+.landing-area {
+    position: absolute;
+    bottom: 10%;
+    left: 6%;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(198, 124, 225, .2);
+    -webkit-transform: translate(0, 30%) scale(1);
+    transform: translate(0, 30%) scale(1);
+    border-radius: 100%;
+    transition: .4s ease opacity .11s, .4s ease -webkit-transform .11s, .1s ease z-index;
+    transition: .4s ease opacity .11s, .4s ease transform .11s, .1s ease z-index;
+    z-index: 1;
+    opacity: 1
+}
+
+.landing-area.hidden {
+    -webkit-transform: translate(0, 30%) scale(.9);
+    transform: translate(0, 30%) scale(.9);
+    opacity: 0;
+    z-index: -10;
+    transition: .4s ease opacity, .4s ease -webkit-transform, .5s ease z-index .5s;
+    transition: .4s ease opacity, .4s ease transform, .5s ease z-index .5s
+}
+
+.landing-area .spot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(198, 124, 225, .8);
+    opacity: .5;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+.landing-area:after {
+    content: 'Landing Area';
+    position: absolute;
+    width: 240px;
+    top: 50%;
+    left: 120%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    font-size: 16px
+}
+
+.font,
+.landing-area:after,
+.socials li:nth-child(1) a,
+.socials li:nth-child(2) a,
+.socials li:nth-child(3) a,
+.socials li:nth-child(4) a,
+.socials li:nth-child(5) a,
+.socials li:nth-child(6) a,
+p {
+    font-weight: 100!important;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale!important
+}
+
+h1 {
+    display: none;
+    visibility: hidden
+}
+
+p {
+    font-size: 2rem;
+    max-width: 1080px;
+    line-height: 4rem;
+    margin-left: 8%;
+    margin-right: 8%
+}
+
+p.split {
+    opacity: 0
+}
+
+p.split.hover,
+p.split.hovered {
+    opacity: 0
+}
+
+img.oncanvas,
+p.oncanvas,
+ul.oncanvas {
+    opacity: .1!important
+}
+
+.spaceship.oncanvas {
+    opacity: 0
+}
+
+.socials {
+    position: absolute;
+    bottom: 10vh;
+    left: 12%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline
+}
+
+.socials li:nth-child(1) {
+    display: inline;
+    margin: 0;
+    padding: 10px 30px 10px 0
+}
+
+.socials li:nth-child(1) a {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: '718';
+    font-weight: 400!important;
+    transition: .5s ease all;
+    transition-delay: 30ms
+}
+
+.socials li:nth-child(1) a.hide {
+    opacity: 0
+}
+
+.socials li:nth-child(2) {
+    display: inline;
+    margin: 0;
+    padding: 10px 30px 10px 0
+}
+
+.socials li:nth-child(2) a {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: '718';
+    font-weight: 400!important;
+    transition: .5s ease all;
+    transition-delay: 60ms
+}
+
+.socials li:nth-child(2) a.hide {
+    opacity: 0
+}
+
+.socials li:nth-child(3) {
+    display: inline;
+    margin: 0;
+    padding: 10px 30px 10px 0
+}
+
+.socials li:nth-child(3) a {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: '718';
+    font-weight: 400!important;
+    transition: .5s ease all;
+    transition-delay: 90ms
+}
+
+.socials li:nth-child(3) a.hide {
+    opacity: 0
+}
+
+.socials li:nth-child(4) {
+    display: inline;
+    margin: 0;
+    padding: 10px 30px 10px 0
+}
+
+.socials li:nth-child(4) a {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: '718';
+    font-weight: 400!important;
+    transition: .5s ease all;
+    transition-delay: .12s
+}
+
+.socials li:nth-child(4) a.hide {
+    opacity: 0
+}
+
+.socials li:nth-child(5) {
+    display: inline;
+    margin: 0;
+    padding: 10px 30px 10px 0
+}
+
+.socials li:nth-child(5) a {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: '718';
+    font-weight: 400!important;
+    transition: .5s ease all;
+    transition-delay: .15s
+}
+
+.socials li:nth-child(5) a.hide {
+    opacity: 0
+}
+
+.socials li:nth-child(6) {
+    display: inline;
+    margin: 0;
+    padding: 10px 30px 10px 0
+}
+
+.socials li:nth-child(6) a {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: '718';
+    font-weight: 400!important;
+    transition: .5s ease all;
+    transition-delay: .18s
+}
+
+.socials li:nth-child(6) a.hide {
+    opacity: 0
+}
+
+.hover {
+    transition: .725s ease opacity
+}
+
+li.hover {
+    opacity: .6
+}
+
+li.hover.hovered {
+    opacity: .08
+}
+
+.hovered {
+    opacity: .08
+}
+
+.spaceship {
+    position: absolute;
+    bottom: calc(10vh - 20px);
+    left: calc(8% - 20px);
+    z-index: 10;
+    font-size: 16px;
+    padding: 20px;
+    opacity: 1;
+    transition: .4s ease opacity .1s
+}
+
+.spaceship.hide {
+    opacity: 0
+}
+
+.spaceship.ready {
+    -webkit-animation: .2s ease infinite spaceshake;
+    animation: .2s ease infinite spaceshake
+}
+
+@-webkit-keyframes spaceshake {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    25% {
+        -webkit-transform: rotate(-8deg);
+        transform: rotate(-8deg)
+    }
+    75% {
+        -webkit-transform: rotate(8deg);
+        transform: rotate(8deg)
+    }
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+@keyframes spaceshake {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    25% {
+        -webkit-transform: rotate(-8deg);
+        transform: rotate(-8deg)
+    }
+    75% {
+        -webkit-transform: rotate(8deg);
+        transform: rotate(8deg)
+    }
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+.spaceship-canvas {
+    position: absolute;
+    top: 90vh;
+    left: 8%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    will-change: transform;
+    pointer-events: none;
+    z-index: 11;
+    transition: .2s ease opacity
+}
+
+.spaceship-canvas .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    pointer-events: none;
+    transition: .2s ease font-size;
+    transform: rotate(317deg);
+}
+
+.spaceship-canvas.hidden {
+    opacity: 0
+}
+
+.spaceship-canvas.hidden .icon {
+    font-size: 1rem
+}
+
+.cursor-follower {
+    position: absolute;
+    background-color: rgba(198, 124, 225, .2);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    z-index: 1;
+    transition: .6s cubic-bezier(.75, -1.27, .3, 2.33) -webkit-transform, .2s cubic-bezier(.75, -.27, .3, 1.33) opacity;
+    transition: .6s cubic-bezier(.75, -1.27, .3, 2.33) transform, .2s cubic-bezier(.75, -.27, .3, 1.33) opacity;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10000;
+    -webkit-transform: translate(5px, 5px);
+    transform: translate(5px, 5px)
+}
+
+.cursor-follower.active {
+    opacity: .7;
+    -webkit-transform: scale(3);
+    transform: scale(3)
+}
+
+.cursor-follower.hide {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+.cursor {
+    position: absolute;
+    background-color: #8EAAF1;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    z-index: 1;
+    transition: .3s cubic-bezier(.75, -1.27, .3, 2.33) -webkit-transform, .2s cubic-bezier(.75, -.27, .3, 1.33) opacity;
+    transition: .3s cubic-bezier(.75, -1.27, .3, 2.33) transform, .2s cubic-bezier(.75, -.27, .3, 1.33) opacity;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10000;
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.cursor.active {
+    opacity: .5;
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+.cursor.hide {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+.logo {
+    position: absolute;
+    width: 28px;
+    opacity: .15;
+    top: 10vh;
+    right: 6%;
+    transition: .4s ease opacity .1s
+}
+
+.logo.hide {
+    opacity: 0
+}
+
+@media only screen and (max-width:768px) {
+    *,
+    body,
+    html {
+        cursor: default
+    }
+    .logo {
+        top: 5vh
+    }
+    .cursor,
+    .cursor-follower {
+        visibility: hidden
+    }
+    p {
+        font-size: 2.1rem;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: -30vh
+    }
+    p.hover,
+    p.hovered {
+        opacity: 1
+    }
+    .socials {
+        bottom: 30vh;
+        left: 12%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        width: 80%
+    }
+    .socials li {
+        padding-bottom: 0!important
+    }
+    .socials li a {
+        cursor: pointer
+    }
+    .spaceship {
+        position: absolute;
+        bottom: calc(20vh - 20px);
+        left: calc(12% - 20px);
+        cursor: pointer
+    }
+    .landing-area {
+        bottom: 21.5%;
+        left: 12%
+    }
+    li.hover.hovered {
+        opacity: .6
+    }
+    @media only screen and (max-height:569px) {
+        p {
+            margin-top: -45vh;
+        }
+        .socials {
+            width: 90%;
+        }
+        .socials li {
+            padding-right: 16px;
+        }
+    }
+    *:focus {
+    outline: none;
+    outline-width: 0;
+    }
+</style>
+
+<body></body>
+<div class="cursor hide"></div>
+<div class="cursor-follower hide"></div>
+<div data-title="Nicolas Lanthemann — Independent Experience Designer" class="page--container js-home"><img alt="Nicolas Lanthemann Logo" src="favicons/mstile-70x70.png" class="hide logo">
+    <h1>Nicolas Lanthemann — Independent Experience Designer</h1>
+    <p class="split hover">Nicolas Lanthemann is a passionate Independent Designer and Judge at Awwwards. He believes that design is not only about how things look & feel. It’s about the meaning they produce.</p>
+    <div class="hide spaceship cur">🚀</div>
+    <ul class="socials">
+        <li class="hover cur"><a href="mailto:ciao@vanderlanth.io" target="_top" class="social hide">Mail</a></li>
+        <li class="hover cur"><a href="https://twitter.com/vanderlanth" target="noopener" class="social hide">Twitter</a></li>
+        <li class="hover cur"><a href="http://dribbble.com/vanderlanth/" target="noopener" class="social hide">Dribbble</a></li>
+        <li class="hover cur"><a href="https://medium.com/@vanderlanth" target="noopener" class="social hide">Medium</a></li>
+        <li class="hover cur"><a href="https://www.behance.net/vanderlanth" target="noopener" class="social hide">Behance</a></li>
+        <li class="hover cur"><a href="https://ch.linkedin.com/in/vanderlanth" target="noopener" class="social hide">Linkedin</a></li>
+    </ul>
+    <canvas id="myCanvas" resize></canvas>
+    <canvas id="mcan"></canvas>
+    <div class="landing-area hidden">
+        <div class="spot"></div>
+    </div>
+    <div class="spaceship-canvas hidden">
+        <div class="icon">🚀</div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
 </div>
 
-</body>
 </html>
